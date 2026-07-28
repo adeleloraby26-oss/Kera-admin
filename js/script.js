@@ -3,7 +3,7 @@
   // this dashboard needs to read every row, bypassing row-level security.
   // Keep this file off any public URL, or put it behind your own login first.
   const SUPABASE_URL = 'https://xehbsvnmlyhvxiwconne.supabase.co';
-  const SUPABASE_SERVICE_KEY = 'YOUR-SERVICE-ROLE-KEY';
+  const SUPABASE_SERVICE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InhlaGJzdm5tbHlodnhpd2Nvbm5lIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc4NTI3MTYxNywiZXhwIjoyMTAwODQ3NjE3fQ.Zf7z8M9s3fh4Wh996EPMIiklVe8Y5ne7bpvGZNTsz1o';
 
   const configured = !SUPABASE_URL.startsWith('https://YOUR') && window.supabase;
   const supabaseClient = configured
